@@ -21,10 +21,10 @@ type_speed = 10
 donate_phrases = ["omg thanks! enjoy your pet :)", "wow! enjoy your pet!", "omg thanks! do you like your pet?", "thanks! come again soon"]
 donate_location = {'top': 310, 'left': 10, 'width': 600, 'height': 20}
 
-username = "dull_dude32"
+username = input("[ type your username (as it will show up in game) ] \n")
 other_keyword = "tipped"
 
-tesseract_location = open("assets/tesseract_path", "r").read()
+tesseract_location = open("tesseract_path", "r").read()
 tesseract_location = r'{}'.format(tesseract_location)
 
 pytes.pytesseract.tesseract_cmd = tesseract_location
