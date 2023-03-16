@@ -64,7 +64,7 @@ for gamepass in gamepasses:
 
         print(count, position)
 
-        sleep(1.7)
+        sleep(1.8)
     
     count = 0
 
