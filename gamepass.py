@@ -8,17 +8,18 @@ from time import sleep
 
 # format: [amount, "gamepass name"]
 gamepasses = [
-    [5, "dog"],
-    [10, "cat"],
-    [25, "fish"],
-    [50, "tiger"],
-    [100, "leopard"],
-    [250, "monkey"],
-    [500, "alligator"],
-    [1000, "giraffe"],
-    [2500, "octopus"],
-    [5000, "unicorn"],
-    [10000, "dragon"],
+    [75, "75 robux"],
+    [150, "sus"],
+    [250, "sus"],
+    [500, "sus"],
+    [1000, "sus"],
+    [2000, "sus"],
+    [5000, "sus"],
+    [10000, "sus"],
+    [50000, "sus"],
+    [100000, "sus"],
+    [200000, "sus"],
+    [1000000, "sus"],
 ]
 
 count = 0
@@ -36,7 +37,7 @@ sleep(5)
 type_events = {
     2: 1,
     11: 0,
-    3: "wow! enjoy your pet :)",
+    3: "wow! enjoy your food :)",
 }
 
 for gamepass in gamepasses:

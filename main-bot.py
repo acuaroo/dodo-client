@@ -13,11 +13,22 @@ mouse = pyn.mouse.Controller()
 
 #pet <font color="#DB63FF"><i>rescue shelter!</i></font>
 
-phrases = ["amazing pets, come adopt some!", "get yourself a unicorn today!", "we have pets ranging from dogs to unicorns!", "best pet shop in the world :)", "come adopt a pet!", "adopt a pet!", "adopt one of our cute pets :)"]
+phrases = [
+    "we have the best fast food!",
+    "new deluxe deals!",
+    "new bloxy cola in stock!",
+    "get yourself a bloxy burger today!",
+    "support a local business! :)",
+    "we have the best burgers in town!",
+    "dont forget to tip your server!",
+    "its a beautiful day for a burger!",
+    "get a bloxy burger, chicken nuggets, or even waffle fries!",
+    "enjoy your stay at bloxy burgers!"
+]
+
 phrase_time = (25, 35)
 type_speed = 10
 
-donate_phrases = ["omg thanks! enjoy your pet :)", "wow! enjoy your pet!", "omg thanks! do you like your pet?", "thanks! come again soon"]
 
 # donate_location = {'top': 195, 'left': 10, 'width': 400, 'height': 20}
 # donate_location2 = {'top': 195, 'left': 965, 'width': 400, 'height': 20}
@@ -57,8 +68,6 @@ def wiggle(duration):
         keyboard.press("d")
         sleep(0.1)
         keyboard.release("d")
-
-
 
 def main_cycle():
     previous_amount = 0
